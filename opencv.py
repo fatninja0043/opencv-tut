@@ -6,12 +6,7 @@ eye_cascade = cv2.CascadeClassifier('haarcascade_eye.xml')
 
 nose_cascade = cv2.CascadeClassifier('haarcascade_mcs_nose.xml')
 
-#left_ear_cascade = cv2.CascadeClassifier('haarcascade_mcs_leftear.xml')
-
-#right_ear_cascade = cv2.CascadeClassifier('haarcascade_mcs_rightear.xml')
-
-# cap = cv2.VideoCapture(0)
-cap = cv2.VideoCapture(-1)
+cap = cv2.VideoCapture(0)
 
 while 1:
     ret, img = cap.read()
