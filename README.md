@@ -13,7 +13,7 @@ OpenCV
 ```
 pip install opencv-python 
 ```
-#### cascades used
+#### Cascades used
 1. frontal-face
 2. eyes
 3. nose
