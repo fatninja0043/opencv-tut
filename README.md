@@ -1,5 +1,5 @@
 # opencv-tut
-a tiny OpenCV project 
+a small OpenCV project 
 
 ### Prerequisites
 
@@ -9,8 +9,11 @@ Python3
 ```
 OpenCV
 ```
-
-#### cascades
+### Installation 
+```
+pip install opencv-python 
+```
+#### cascades used
 1. frontal-face
 2. eyes
 3. nose
