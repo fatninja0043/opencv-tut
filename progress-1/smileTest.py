@@ -1,7 +1,7 @@
 import numpy as np
 import cv2
-faceCascade = cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
-smileCascade = cv2.CascadeClassifier('haarcascade_smile.xml')
+faceCascade = cv2.CascadeClassifier('cascades/haarcascade_frontalface_default.xml')
+smileCascade = cv2.CascadeClassifier('cascades/haarcascade_smile.xml')
 
 cap = cv2.VideoCapture(0)
 cap.set(3, 640)  # set Width
