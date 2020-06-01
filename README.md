@@ -1,5 +1,5 @@
 # opencv-project
-Face Detection and Face Recognition 
+Face Detection and Face Recognition usign OpenCV.
 
 ### Installation 
 ```
