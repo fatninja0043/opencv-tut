@@ -1,10 +1,10 @@
 import cv2
 
-face_cascade = cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
+face_cascade = cv2.CascadeClassifier('cascades/haarcascade_frontalface_default.xml')
 
-eye_cascade = cv2.CascadeClassifier('haarcascade_eye.xml')
+eye_cascade = cv2.CascadeClassifier('cascades/haarcascade_eye.xml')
 
-nose_cascade = cv2.CascadeClassifier('haarcascade_mcs_nose.xml')
+nose_cascade = cv2.CascadeClassifier('cascades/haarcascade_mcs_nose.xml')
 
 cap = cv2.VideoCapture(0)
 
