@@ -1,4 +1,4 @@
-# opencv-tut
+# opencv-project
 a small OpenCV project 
 
 ### Prerequisites
